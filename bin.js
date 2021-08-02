@@ -4,7 +4,7 @@ const fs = require('fs')
 const path = require('path')
 
 const packageFile = `{
-  "name": "",
+  "name": ""@small-tech/",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,17 +15,23 @@ const packageFile = `{
     "node": ">= 14.0.0",
     "npm": ">= 6.0.0"
   },
-  "homepage": "",
+  "homepage": "https://github.com/small-tech/",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/small-tech/"
   },
-  "bugs": "",
-  "keywords": [],
+  "bugs": "https://github.com/small-tech/",
+  "funding": {
+    "type": "foundation",
+    "url": "https://small-tech.org/fund-us/"
+  },
+  "keywords": [
+    "small tech"
+  ],
   "author": {
-    "name": "",
-    "email": "",
-    "url": ""
+    "name": "Aral Balkan",
+    "email": "aral@small-tech.org",
+    "url": "https://ar.al"
   },
   "contributors": [
 

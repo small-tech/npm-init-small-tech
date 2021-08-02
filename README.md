@@ -1,55 +1,10 @@
-# npm init es6
+# npm init @small-tech
 
-To initialise a free and open ESM project (`"type"="module"`) in Node.js, simply issue the following command:
+__For internal use only.__
 
-```shell
-npm init es6
-```
+Initialises a new Node.js project hardcoded for use at Small Technology Foundation.
 
-I made this as an alternative to `npm init -y` (which produces a _package.json_ file for a CommonJS project by default) because I was sick of (forgetting to) add the type declaration into the package file manually every time.
-
-This is the _package.json_ file it creates:
-
-```json
-{
-  "name": "",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
-  "license": "AGPL-version-3.0",
-  "private": false,
-  "engines": {
-    "node": ">= 14.0.0",
-    "npm": ">= 6.0.0"
-  },
-  "homepage": "",
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "bugs": "",
-  "keywords": [],
-  "author": {
-    "name": "",
-    "email": "",
-    "url": ""
-  },
-  "contributors": [
-
-  ],
-  "scripts": {
-    "dev": "",
-    "test": ""
-  },
-  "dependencies": {
-
-  },
-  "devDependencies": {
-
-  }
-}
-```
+You probably want [npm init es6](https://github.com/small-tech/npm-init-es6) instead.
 
 ## Like this? Fund us!
 
